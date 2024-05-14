@@ -13,10 +13,10 @@
 3. https://stepik.org/lesson/1305409/step/1?unit=1320365
 
 ##Структура репозитория
-1. collecting_traffik - исполняемые скрипты
+1. demonstarting - скрипт(ы) для демонстрации
 2. data/train - данные используемые для обучения
 3. train_script - ноутбук обучения модели (Warning: обучалось в Colab)
-4. VAE - архитектура VAE для импортов в collecting_traffic
+4. VAE - архитектура VAE для импортов и data_processing, в котором происходит работа обученной модели автоэнкодера
 5. weights - обученная модель VAE
 
 Данные взяты отсюда: https://www.kaggle.com/datasets/asfandyar250/network/data
