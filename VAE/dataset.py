@@ -4,7 +4,7 @@ import torch
 from torch.utils.data import Dataset
 
 class TSDataset(Dataset):
-    def __init__(self, split, cont_vars=None, cat_vars=None, lbl_as_feat=True):
+    def __init__(self, datasets_root, split, cont_vars=None, cat_vars=None, lbl_as_feat=True):
         """
         split: 'train' if we want to get data from the training examples, 'test' for
         test examples, or 'both' to merge the training and test sets and return samples
